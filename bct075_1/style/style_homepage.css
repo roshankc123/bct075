@@ -1,0 +1,135 @@
+#form_1{
+visibility:visible;
+padding:3px;
+background-color:#888888;
+text-align:right;
+height: 60px;
+}
+u:nth-child(1){
+display:flex;
+position:absolute;
+left:20px;
+text-decoration:none;
+font-size:30px;
+}
+#footer{
+text-align:right;
+margin-top:40px;
+border: 5px;
+width: 100%;
+height: 5%;
+border:2px dotted; 
+
+}
+#footer:hover{
+    cursor: progress;
+
+}
+.hello, .profile_display{
+    left:44%;
+    position: absolute;
+    width:90px;
+    height:40px;
+    display:flex;
+    font-size: 25px;
+    
+}
+
+.profile_display h5{
+	position: absolute;
+	margin-top:5px;
+	margin-left:50px;
+	font-size:15px;
+}
+.main{
+    position: relative;
+    height: 78%;
+    padding: 5px;
+    display: inline-flex;
+    
+}
+#side, #middle, #sidebar{
+    position: relative;
+    border: #888888 solid 3px;
+    margin-block: 10px;
+    margin-inline: 25px;
+    text-justify: inter-word ;
+    resize: both;
+    overflow: auto;
+    
+}
+#side{
+   position: relative;
+   width: 20%
+}
+#middle{
+    position: relative;
+    width:58%
+    
+    
+}
+#sidebar{
+    position: relative;
+    width: 20%
+    
+   
+}
+.activities,.messages, .log{
+    position: relative;
+    padding: 5px;
+    font-size: 20px;
+    border:0px solid groove;
+    width:150px;
+    top:-10px;
+}
+.messages{
+    margin-left:10px;
+}
+.profile{
+    margin-left: 85%;
+}
+
+.log h2:hover{
+    cursor: pointer;
+    color: aqua;
+        }
+.log-drop{
+    position: absolute;
+    display: inline-block;
+    background-color: #dddddd;
+    visibility: hidden;
+    min-width: 160px;
+    z-index: 1;
+    font-size: 10px;
+    padding: 5px;
+}
+.log-drop{
+    margin-top: 15px;
+    margin-left: -55px;
+}
+
+.log:hover .log-drop{
+    visibility: visible;
+    cursor: progress; 
+    background-color: whitesmoke;
+    
+    display: block;
+    border-radius: 20px 10px;
+    top:40px;
+    text-align: left;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.profile:hover{
+    cursor:progress;
+    color:rgb(55, 170, 140);
+}
+.activities:hover,.messages:hover{
+    cursor: pointer;
+    color:rgba(45, 253, 4, 0.466);
+}
+.activities:active, .messages:active{
+    color: azure;
+}
+@media screen and (max-width:900px){
+}
