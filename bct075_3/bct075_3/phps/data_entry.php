@@ -22,8 +22,8 @@ error_reporting(0);
 	  </form>
 	</body>
 	</html>   ';
-	$db_0=mysqli_connect("localhost","root","","bct075");
-	if(!$db_0) echo mysqli_connect_error();
+	$db_0=mysqli_connect("remotemysql.com","rFkNnFRKmV","vsn8jOgB89","rFkNnFRKmV");
+  if(!$db_0) echo mysqli_connect_error();
     $u_roll=$_POST['roll'];
 	$u_name=$_POST['username'];
 	$u_password=$_POST['password'];
