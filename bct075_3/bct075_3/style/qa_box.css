@@ -1,0 +1,18 @@
+.qa_box{
+    height: 300px;
+    width: 300px;
+    top:5px;
+    right: 90px;
+    background-color:wheat;
+    position: relative;
+    mask-position: 25px;
+    visibility: hidden;
+    border: 2px;
+    z-index: 1;
+    border-radius: 25px 25px 10px 15px;
+
+}
+.QA:hover .qa_box{
+    visibility: visible;
+    
+}
