@@ -1,0 +1,178 @@
+#form_1{
+	margin:0px;
+	visibility:visible;
+	padding:0px;
+	background-color:#888888;
+	text-align:right;
+	height: 50px;
+    width:100%;
+    position: relative;
+}
+#u_all{
+	display:flex;
+	position:absolute;
+	left:20px;
+	text-decoration:none;
+	font-size:30px;
+}
+.hello, .profile_display{
+    left:44%;
+    position: absolute;
+    width:90px;
+    height:40px;
+    display:flex;
+    font-size: 15px;
+}
+.profile_display{
+    background-color: aliceblue;
+    left: 22%;
+    width:160px;
+    border: 2px solid wheat; 
+    border-radius: 15px;
+	margin-top:-5px;
+}
+.profile_display h5{
+	position:relative;
+	margin-top:10px;
+	margin-left:30px;
+	font-size:15px;
+}
+.profile_display:hover{
+    cursor: pointer; 
+}
+.main{
+    position: relative;
+    height: 78%;
+	width:100%;
+    padding: 5px;
+    display: inline-flex; 
+}
+#side, #middle, #sidebar{
+    position: relative;
+    border: #fdf6f6 solid 3px;
+	margin:5px;
+    text-justify: inter-word ;
+    overflow: auto; 
+}
+#side{
+   width: 20%
+}
+#middle{
+    width:58%
+}
+#sidebar{
+    width: 20%   
+}
+.activities,.messages,.profile,.log,.QA{
+    position: relative;
+    padding: 5px;
+    font-size: 15px;
+    border:0px solid groove;
+    width:100px;
+    top:-20px;
+}
+.activities{
+    top:-3px;
+    left: 23px;
+}
+.QA{
+    top:-3px;
+    right: 60px;
+}
+.activities i,.messages i{
+	visibility:hidden;
+	}
+.messages{
+    right: 6px;;
+    top: -3px;
+    margin-left:10px;
+}
+.profile{
+	margin-top:15px;
+	right:10%;
+}
+.activities:hover,.messages:hover,.QA:hover{
+    cursor: pointer;
+    color:rgba(45, 253, 4, 0.466);
+}
+.activities:active, .messages:active,.QA:active{
+    color: azure;
+}
+#footer{
+text-align:right;
+margin-top:35px;
+border: 5px;
+width: 100%;
+height: 5%;
+border:2px dotted; 
+}
+#footer:hover{
+    cursor: progress;
+}
+
+
+.log{
+    left:80%;
+    size: 20px;
+    width:0px;
+    top: -10px;
+    visibility:visible; 
+}
+.log:hover{ 
+    cursor: pointer;
+    color: aqua;
+        }
+.log-drop{
+    position: absolute;
+    display: inline-flexbox;
+    background-color: #e0d4d4;
+    visibility: hidden;
+    min-width: 160px;
+    top:80px;
+    z-index: 4;
+    font-size: 10px;
+    left: -40px;
+}
+.log-drop{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.log-drop h4:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.log:hover .log-drop{
+    visibility: visible;
+    position: absolute;
+    cursor: progress; 
+    background-color: whitesmoke;
+    display: block;
+    border-radius: 10px;
+    top:50px;
+    text-align: left;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#round_left,#round_right{   /*for popup*/
+	visibility:hidden;
+	position:fixed;
+	bottom:3px;
+	z-index:4;
+}
+#round_left{
+	border-radius:2000px 200px 0 0;
+	right:3px;
+	box-shadow:0px 0px 8px 3px red;
+}
+#round_right{
+	border-radius:200px 2000px 0 0;
+	left:3px;
+	box-shadow:0px 0px 8px 3px red;
+}
+.cross_right,.cross_left{
+	position:absolute;
+	top:0px;
+	color:transparent;
+	font-size:0px;
+}

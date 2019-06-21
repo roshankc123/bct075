@@ -1,0 +1,67 @@
+.message_box{
+    height: 300px;
+    width: 300px;
+    top:px;
+    right: 90px;
+    background-color:whitesmoke;
+    position: relative;
+    mask-position: 25px;
+    visibility: hidden;
+    border: 2px;
+    z-index: 1;
+    text-align: center;
+    border-radius: 10px;
+    overflow: auto;
+
+}
+.messages:hover .message_box {
+    visibility: visible;
+    cursor: auto;
+}
+}
+.m_main{
+    position: relative;
+    border:2px;
+    background-color: aquamarine;
+    height:180px;
+    width: inherit;
+    top: 10px;
+}
+.actual_message{
+    position: relative;
+    border:2px solid peru;
+    border-radius: 5px;
+    height:80px;
+    width: 95%;
+    color: blue;
+    display: inline-flexbox;
+    background: rgb(253, 253, 252);
+}
+.s_image{
+    top:-5px;
+    align-content: flex-start;
+    float: left;
+    position: relative;
+    border: 2px solid gray;
+    height: 50px;
+    width: 22%;
+    left:2px;
+}
+.s_time{
+    top: -15%;
+    right:-27%;
+    position: relative;
+    color: red;
+    width: 70%;
+    height: 20px;
+    border: 2px solid violet;
+}
+.s_message{
+    position: relative;
+    border: 2px solid red;
+    width: 70%;
+    height: 40px; 
+    top: -30%;
+    right:-27%;
+    color: brown;
+}

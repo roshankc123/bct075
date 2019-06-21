@@ -1,0 +1,32 @@
+.i_image{
+    position: relative;
+    border: 5px double red;
+    height: 40%;
+    width: 25%;
+    border-radius:50%; 
+    float: left;  
+}
+.i_points{
+    position: relative;
+    border: 2px solid gray;
+    height: 50px;
+    width: 70%;
+    right: -28%;
+}
+.i_links{
+    position: relative;
+    border: 2px solid gray;
+    height: 50px;
+    width: 70%;
+    right: -28%;
+}
+.i_intro{
+    text-align: justify;
+    border: 2px solid gray;
+    height: 40%;
+    width: 97%;
+    color: black;
+    right: -1%;
+    position: relative; 
+}
+
