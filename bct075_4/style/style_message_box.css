@@ -1,0 +1,41 @@
+#message_box_1{
+    margin-left:20.5%;
+    width:58%;
+    background-color:rgba(72, 72, 82, 0.5);
+}
+#bef_load_message{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.5);
+    z-index:5;
+    text-align: center;
+    color: white;
+}
+#bef_load_message:hover{
+    cursor: pointer;
+}
+#sender_box{ 
+   position: absolute;
+   bottom:0px;
+   display:inline-flex;
+   display:-webkit-inline-flex;   
+   margin-bottom:2px;
+   width:100%;
+   background-color: brown;
+}
+#sender_box input{
+    margin:auto;
+    padding:auto;
+}
+#message_text{
+    width:100%;
+}
+#send_button{
+    background-color:rgba(0, 0, 0, 0);
+}
+#message_display *{
+  padding:2px;
+  border:1px solid black;
+  color:white;
+}

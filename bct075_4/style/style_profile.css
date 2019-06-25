@@ -1,0 +1,75 @@
+#profile{
+    color:royalblue;
+    position: absolute; 
+    display:inline-flex;
+    width:100%;
+}
+#intro{
+    border: 10px;
+    width: 40%;
+    height: auto;
+    background:whitesmoke;
+    position: relative;
+    margin: 3%;
+    color: #000;  
+}
+#img_1{
+    position: absolute;
+    width:200px;
+    height:200px;
+    overflow: hidden;
+    margin:20px;
+    border:2px solid black;
+}
+#img_1:hover{
+    cursor: pointer;
+}  
+#bio{
+    position: relative;
+    top:0px;
+    margin-top:5%;
+    right:0px;
+    left:0px;
+    margin-left:250px;
+}  
+.mid{
+    right: 5px;
+    position: relative;
+    border: 3px;
+    margin:3%;
+    height: auto;
+    width: 40%;
+    overflow: wrap;
+    -ms-overflow-style: scrollbar;
+    overflow-y: scrollbar;
+}
+.mid *{
+    margin:1px;
+    padding:3px;
+}
+#points{
+    border: 10px;
+    background:whitesmoke;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: #000;  
+    margin-left: 10px;
+}
+#recent{
+    border: 10px;
+    top:5%;
+    margin-left:20px;
+    background: whitesmoke;
+    position: relative;
+    -ms-overflow-style: scrollbar;
+    overflow-y: scroll;
+}
+#p_buttom{
+    border: 10px;
+    top:10%;
+    margin-left:20px;
+    background: whitesmoke;
+    position: relative;
+}
+
